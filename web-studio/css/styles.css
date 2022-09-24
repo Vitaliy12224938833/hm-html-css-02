@@ -7,7 +7,7 @@
   --second-background-color: #f5f5f5;
   --logo-color: #000000;
   --address-link-color: rgba(255, 255, 255, 0.6);
-  --button-avtive-color:#188CE8
+  --button-avtive-color: #188ce8;
 }
 
 body {
@@ -92,7 +92,7 @@ body {
   background: var(--button-avtive-color);
   outline: transparent;
 }
-/* ---------------------------------benefits */ 
+/* ---------------------------------benefits */
 
 /* ================================--visually-hidden */
 .benefits-visually-hidden {
@@ -109,6 +109,23 @@ body {
 }
 /* ================================--visually-hidden */
 
+.benefits-svg-zone {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+/* .benefits-list:hover .benefits-svg {
+  fill:tomato;
+  cursor: pointer;
+} */
+.benefits-svgg {
+  fill: var(--second-color-text);
+}
+.circle {
+  fill: red;
+}
+.benefits-svgg:hover .circle {
+  fill: var(--first-accent-color);
+}
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -146,6 +163,13 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--first-colot-text);
+}
+
+.social-network:hover .social-network-circle {
+  fill: var(--first-accent-color);
+}
+.social-network:hover .social-network-parts {
+  fill: var(--second-accend-color);
 }
 /* ---------------------------------footer */
 .footer {
@@ -211,7 +235,7 @@ body {
   border-radius: 4px;
   outline: transparent;
   cursor: pointer;
-  border:none
+  border: none;
 }
 .content-button:hover,
 .content-button:focus {
@@ -233,6 +257,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--first-colot-text);
 }
-.stydia-navigation, .portfolio-navigation{
-  color:var(--first-accent-color)
+.stydia-navigation,
+.portfolio-navigation {
+  color: var(--first-accent-color);
 }
