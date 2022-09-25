@@ -120,12 +120,7 @@ body {
 .benefits-svgg {
   fill: var(--second-color-text);
 }
-.circle {
-  fill: red;
-}
-.benefits-svgg:hover .circle {
-  fill: var(--first-accent-color);
-}
+
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -164,13 +159,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--first-colot-text);
 }
+.team-item {
+  background-color: var(--second-accend-color);
+}
 
-.social-network:hover .social-network-circle {
-  fill: var(--first-accent-color);
-}
-.social-network:hover .social-network-parts {
-  fill: var(--second-accend-color);
-}
 /* ---------------------------------footer */
 .footer {
   background: var(--first-background-color);
