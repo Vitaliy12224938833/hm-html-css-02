@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homework_2</title>
+    <title>homework_1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./svg/icomoon-v1.0/style.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/icon.css" />
+    <link rel="stylesheet" href="./css/space.css" />
   </head>
   <body>
     <header class="header">
@@ -20,14 +24,12 @@
         >
         <ul class="header-list list">
           <li class="header-item link">
-            <a class="header-link link" href="./index.html">Студія</a>
+            <a class="header-link link stydia-navigation" href="./index.html"
+              >Студія</a
+            >
           </li>
           <li class="header-item link">
-            <a
-              class="header-link link portfolio-navigation"
-              href="./portfolio.html"
-              >Портфоліо</a
-            >
+            <a class="header-link link" href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="header-item link">
             <a class="header-link link" href="">Контакти</a>
@@ -37,12 +39,36 @@
       <ul class="header-list list">
         <li class="header-item link">
           <a class="header-mail link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+            ><svg
+              class="header-mail"
+              width="16"
+              height="12"
+              viewBox="0 0 16 12"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z"
+              />
+            </svg>
+            info@devstudio.com</a
           >
         </li>
         <li class="header-item link">
           <a class="header-tel link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
+            ><svg
+              class="header-tel"
+              width="10"
+              height="16"
+              viewBox="0 0 10 16"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z"
+              />
+            </svg>
+            +38 096 111 11 11</a
           >
         </li>
       </ul>
@@ -73,7 +99,8 @@
               ><img
                 src="./images/portfolio.img/portfolio.img-1.jpg"
                 alt="Ноутбук"
-                width="370" />
+                width="370"
+              />
               <h2 class="content-list-title">Технокряк</h2>
               <p class="content-list-text">Веб-сайт</p></a
             >
@@ -83,7 +110,8 @@
               ><img
                 src="./images/portfolio.img/portfolio.img-2.jpg"
                 alt="Постер гри в баскетбол"
-                width="370" />
+                width="370"
+              />
               <h2 class="content-list-title">
                 Постер New Orlean vs Golden Star
               </h2>
@@ -95,7 +123,8 @@
               ><img
                 src="./images/portfolio.img/portfolio.img-3.jpg"
                 alt="Логотип у вигляді риби"
-                width="370" />
+                width="370"
+              />
               <h2 class="content-list-title">Ресторан Seafood</h2>
               <p class="content-list-text">Додаток</p></a
             >
@@ -105,7 +134,8 @@
               ><img
                 src="./images/portfolio.img/portfolio.img-4.jpg"
                 alt="Чорні наушники"
-                width="370" />
+                width="370"
+              />
               <h2 class="content-list-title">Проєкт Prime</h2>
               <p class="content-list-text">Маркетинг</p></a
             >
@@ -115,7 +145,8 @@
               ><img
                 src="./images/portfolio.img/portfolio.img-5.jpg"
                 alt="Дві коробочки"
-                width="370" />
+                width="370"
+              />
               <h2 class="content-list-title">Проєкт Boxes</h2>
               <p class="content-list-text">Додаток</p></a
             >
@@ -125,7 +156,8 @@
               ><img
                 src="./images/portfolio.img/portfolio.img-6.jpg"
                 alt="Моноболок"
-                width="370" />
+                width="370"
+              />
               <h2 class="content-list-title">Inspiration has no Borders</h2>
               <p class="content-list-text">Веб-сайт</p></a
             >
@@ -135,7 +167,8 @@
               ><img
                 src="./images/portfolio.img/portfolio.img-7.jpg"
                 alt="Відкрита книга"
-                width="370" />
+                width="370"
+              />
               <h2 class="content-list-title">Видання Limited Edition</h2>
               <p class="content-list-text">Дизайн</p></a
             >
@@ -145,7 +178,8 @@
               ><img
                 src="./images/portfolio.img/portfolio.img-8.jpg"
                 alt="Бірка"
-                width="370" />
+                width="370"
+              />
               <h2 class="content-list-title">Проєкт LAB</h2>
               <p class="content-list-text">Маркетинг</p></a
             >
@@ -155,7 +189,8 @@
               ><img
                 src="./images/portfolio.img/portfolio.img-9.jpg"
                 alt="Робота за ноутбуком"
-                width="370" />
+                width="370"
+              />
               <h2 class="content-list-title">Growing Business</h2>
               <p class="content-list-text">Додаток</p></a
             >
@@ -187,6 +222,49 @@
             <a class="footer-address-link link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
+          </li>
+        </ul>
+        <ul class="list">
+          <h2 class="footer-title">приєднуйтесь</h2>
+          <li>
+            <a class="footer-social-link social-link link" href="">
+              <svg width="20" height="44" viewbox="0 0 20 20">
+                <use
+                  class="footer-icon-parts icon-parts"
+                  xlink:href="./svg-sprits/2-icon-sprite.svg#instagram"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="footer-social-link social-link link" href="">
+              <svg width="20" height="44" viewbox="0 0 20 20">
+                <use
+                  class="footer-icon-parts icon-parts"
+                  xlink:href="./svg-sprits/2-icon-sprite.svg#twitter"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="footer-social-link social-link link" href="">
+              <svg width="20" height="44" viewbox="0 0 20 20">
+                <use
+                  class="footer-icon-parts icon-parts"
+                  xlink:href="./svg-sprits/2-icon-sprite.svg#facebook"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="footer-social-link social-link link" href="">
+              <svg width="20" height="44" viewbox="0 0 20 20">
+                <use
+                  class="footer-icon-parts icon-parts"
+                  xlink:href="./svg-sprits/2-icon-sprite.svg#linkedin"
+                ></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </address>

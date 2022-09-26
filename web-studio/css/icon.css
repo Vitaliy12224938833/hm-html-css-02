@@ -9,8 +9,7 @@
   --address-link-color: rgba(255, 255, 255, 0.6);
   --button-avtive-color: #188ce8;
 }
-.team-social-network {
-}
+
 .social-link {
   position: relative;
   display: block;
@@ -22,11 +21,13 @@
 
   background-color: var(--second-accend-color);
 }
-.social-link:hover {
+.social-link:hover, .social-link:focus {
   background-color: var(--first-accent-color);
+  outline: transparent
 }
-.social-link:hover .icon-parts {
+.social-link:hover .icon-parts, .social-link:focus .icon-parts  {
   fill: var(--second-accend-color);
+  outline: transparent
 }
 .icon-parts {
   fill: #afb1b8;
@@ -35,23 +36,30 @@
   max-width: 100%;
   height: auto;
 }
-.clients-link{
-text-align: center;
-display: block;
-width: 170px;
-height: 92px;
-border: 1px solid #AFB1B8;
-border-radius: 4px
+.clients-link {
+  text-align: center;
+  display: block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition: fill 0.2s;
 }
-.clients-link:hover .client-logo{
-    fill:var(--first-accent-color)
+.clients-link:hover .client-logo, .clients-link:focus .client-logo {
+  fill: var(--first-accent-color);
+  transition: fill 0.2s;
+  outline: transparent
 }
-.clients-link:hover{
-    border-color:var(--first-accent-color)
+.clients-link:hover, .clients-link:focus {
+  border-color: var(--first-accent-color);
+  outline: transparent
 }
-.client-logo{
-    fill:#AFB1B8
+.client-logo {
+  fill: #afb1b8;
 }
-.client-logo:hover{
-    
+.footer-social-link {
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-icon-parts {
+  fill: var(--second-accend-color);
 }

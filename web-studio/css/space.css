@@ -1,0 +1,9 @@
+.benefits-svg-space {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  position: relative;
+  display: block;
+  text-align: center;
+}
