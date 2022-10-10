@@ -222,22 +222,24 @@ li {
   display: block;
   text-align: center;
 }
-.benefits-item{
+.benefits-item {
   display: inline-table;
   padding-right: 14px;
+  padding-top: 94px;
 }
 
-.benefits-content{
+.benefits-content {
   width: 270px;
   height: 120px;
 }
-.benefits-list{
+.benefits-list {
   display: inline-block;
 }
 
 /* ---------------------------------worktypes/team */
 .team {
-  background: var(--second-background-color);
+  background-color: var(--second-background-color);
+  text-align: center;
 }
 .title {
   font-weight: 700;
@@ -245,6 +247,8 @@ li {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--second-color-text);
+  text-align: center;
+  padding:94px 0px 0px 0px
 }
 .team-name {
   font-weight: 500;
@@ -261,16 +265,43 @@ li {
   color: var(--first-colot-text);
 }
 .team-item {
-  background-color: var(--second-accend-color);
+  padding-right: 14px;
+  display: inline-block;
+  padding-top:20px
 }
-.worktypes li{
+.team-item-conteiner {
+  width: 270px;
+  height: 428px;
+  background-color: var(--second-accend-color);
+  
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-item li {
+  display: inline-block;
+  padding: 0px 5px 30px 0px;
+  transition: all 0.2s;
+}
+.worktypes li {
   display: inline-block;
 }
 .worktypes-item {
   padding-right: 9px;
-
+  padding-top:20px
 }
-.last{
+.last {
+  padding-right: 0px;
+  padding-top:0px
+  
+}
+/*----------------------------------clients*/
+.clients-item{
+  display: inline-block;
+  padding-right: 18px;
+  padding-top:20px
+}
+.last {
   padding-right: 0px;
 }
 /* ---------------------------------footer */
