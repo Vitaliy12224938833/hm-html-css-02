@@ -191,8 +191,8 @@ li {
   fill:tomato;
   cursor: pointer;
 } */
-.benefits-svgg {
-  fill: var(--second-color-text);
+.benefits-svg {
+  height: 120px;
 }
 
 .benefits-title {
@@ -208,7 +208,11 @@ li {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
+.conteiner-benefits {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: auto;
+}
 .benefits-svg-space {
   width: 270px;
   height: 120px;
@@ -217,6 +221,18 @@ li {
   position: relative;
   display: block;
   text-align: center;
+}
+.benefits-item{
+  display: inline-table;
+  padding-right: 14px;
+}
+
+.benefits-content{
+  width: 270px;
+  height: 120px;
+}
+.benefits-list{
+  display: inline-block;
 }
 
 /* ---------------------------------worktypes/team */
@@ -247,7 +263,16 @@ li {
 .team-item {
   background-color: var(--second-accend-color);
 }
+.worktypes li{
+  display: inline-block;
+}
+.worktypes-item {
+  padding-right: 9px;
 
+}
+.last{
+  padding-right: 0px;
+}
 /* ---------------------------------footer */
 .footer {
   background: var(--first-background-color);
