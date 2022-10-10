@@ -283,16 +283,8 @@ li {
   padding: 0px 5px 30px 0px;
   transition: all 0.2s;
 }
-
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-}
-.team-item li {
-display: inline-block;
-padding: 0px 5px 30px 0px;
-transition: all 0.2s;
-}
+.worktypes li {
+  display: inline-block;
 }
 .worktypes-item {
   padding-right: 9px;
@@ -319,7 +311,7 @@ transition: all 0.2s;
 }
 .footer-logo {
   font-family: "Raleway", "sans-serif";
-  font-weight: 700;<div class="portfolio-content"></div>
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--second-accend-color);
@@ -450,6 +442,6 @@ transition: all 0.2s;
   display: inline-block;
   padding: 0px 8px 20px 8px;
 }
-.content{
+.content {
   padding-bottom: 74px;
 }
