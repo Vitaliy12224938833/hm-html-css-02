@@ -11,72 +11,62 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./svg/icomoon-v1.0/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/icon.css" />
-    <link rel="stylesheet" href="./css/space.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a class="header-logo link" href="./index.html"
-          ><span class="header-logo-web">Web</span>Studio</a
-        >
-        <ul class="header-list list">
-          <li class="header-item link">
-            <a class="header-link link navigation" href="./index.html"
-              >Студія</a
-            >
-          </li>
-          <li class="header-item link">
-            <a class="header-link link" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="header-item link">
-            <a class="header-link link" href="">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="header-list list">
-        <li class="header-item link">
-          <a class="header-mail link" href="mailto:info@devstudio.com"
-            ><svg
-              class="header-mail"
-              width="16"
-              height="12"
-              viewBox="0 0 16 12"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z"
-              />
-            </svg>
-            info@devstudio.com</a
-          >
-        </li>
-        <li class="header-item link">
-          <a class="header-tel link" href="tel:+380961111111"
-            ><svg
-              class="header-tel"
-              width="10"
-              height="16"
-              viewBox="0 0 10 16"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z"
-              />
-            </svg>
-            +38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      <div class="header-content">
+        <div class="conteiner">
+          <div class="header-inner">
+            <nav class="header-navigation">
+              <a class="header-logo" href="./index.html"
+                ><span class="header-logo-web">Web</span>Studio</a
+              >
+              <div class="header-menu">
+                <ul class="header-list">
+                  <li class="header-item">
+                    <a class="header-link navigation" href="./index.html"
+                      >Студія</a
+                    >
+                  </li>
+                  <li class="header-item">
+                    <a class="header-link" href="./portfolio.html">Портфоліо</a>
+                  </li>
+                  <li class="header-item">
+                    <a class="header-link" href="">Контакти</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="header-contacts">
+              <ul class="header-list list">
+                <li class="header-item link">
+                  <a class="header-mail link" href="mailto:info@devstudio.com">
+                    info@devstudio.com</a
+                  >
+                </li>
+                <li class="header-item link">
+                  <a class="header-tel link" href="tel:+380961111111">
+                    +38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <section class="hiro">
-        <h1 class="hiro-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="hiro-button" type="button">Замовити послугу</button>
+        <div class="conteiner">
+          <div class="hiro-content">
+            <h1 class="hiro-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="hiro-button" type="button">Замовити послугу</button>
+          </div>
+        </div>
       </section>
       <section class="benefits">
         <h2 class="benefits-visually-hidden">Переваги</h2>

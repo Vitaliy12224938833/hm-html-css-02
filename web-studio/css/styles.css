@@ -9,17 +9,29 @@
   --address-link-color: rgba(255, 255, 255, 0.6);
   --button-avtive-color: #188ce8;
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", "sans-serif";
   color: var(--first-colot-text);
 }
-.list {
-  list-style: none;
-}
-.link {
+a {
+  display: inline-block;
   text-decoration: none;
 }
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.conteiner {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* ------------------------------------header */
 .header-logo {
   font-family: "Raleway", "sans-serif";
@@ -37,7 +49,7 @@ body {
 .header-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  /* line-height: 1.14; */
   letter-spacing: 0.02em;
   color: var(--second-color-text);
 }
@@ -51,30 +63,75 @@ body {
 .header-link:focus {
   color: var(--first-accent-color);
   outline: transparent;
+  transition: all, 0.2s;
 }
 .header-mail:hover,
 .header-mail:focus {
   color: var(--first-accent-color);
   outline: transparent;
+  transition: all, 0.2s;
 }
 .header-tel:hover,
 .header-tel:focus {
   color: var(--first-accent-color);
   outline: transparent;
+  transition: all, 0.2s;
 }
 .navigation {
   color: var(--first-accent-color);
 }
 
+.header-content,
+.header-logo {
+  line-height: 80px;
+}
+.header-logo {
+  padding-right: 93px;
+}
+.header-menu li {
+  padding-inline-end: 50px;
+}
+.header-contacts li + li {
+  padding-inline-start: 30px;
+}
+.header li {
+  display: inline-block;
+}
+.header-navigation {
+  display: flex;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-tel:before {
+  content: "\e901";
+  font-family: "icomoon";
+  padding: 5px;
+}
+.header-mail:before {
+  content: "\e900";
+  font-family: "icomoon";
+  padding: 5px;
+}
 /* ---------------------------------------------------main */
 /* ---------------------------------hiro */
 .hiro {
-  background: #C4C4C4;;
-  background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/hiro-fon.jpg);
-  width: 1600px;
-  height: 600px;
- 
-  
+  background: #c4c4c4;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hiro-fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  max-width: 1600;
+  display: flex;
+  position: relative;
+  text-align: center;
 }
 .hiro-title {
   font-weight: 900;
@@ -82,8 +139,10 @@ body {
   line-height: 1.63;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--second-accend-color);
+  text-align: center;
+  width: 696px;
+  padding-top: 150px;
 }
 .hiro-button {
   font-family: "Roboto";
@@ -94,12 +153,18 @@ body {
   background: var(--first-accent-color);
   color: var(--second-accend-color);
   cursor: pointer;
+  width: 216px;
+  height: 50px;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hiro-button:hover,
 .hiro-button:focus {
   color: var(--second-accend-color);
   background: var(--button-avtive-color);
   outline: transparent;
+  transition: all, 0.2s;
 }
 /* ---------------------------------benefits */
 
@@ -143,6 +208,17 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.benefits-svg-space {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
 /* ---------------------------------worktypes/team */
 .team {
   background: var(--second-background-color);
@@ -265,4 +341,3 @@ body {
   letter-spacing: 0.03em;
   color: var(--first-colot-text);
 }
-
